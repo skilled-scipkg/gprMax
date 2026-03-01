@@ -1,0 +1,396 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "gprmax",
+  "evidence": {
+    "core_skills": [
+      "gprmax-inputs-and-modeling",
+      "gprmax-getting-started",
+      "gprmax-build-and-install",
+      "gprmax-tests",
+      "gprmax-troubleshooting",
+      "gprmax-tools"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/gprmax-inputs-and-modeling.md",
+      "skills/.evidence/gprmax-getting-started.md",
+      "skills/.evidence/gprmax-build-and-install.md",
+      "skills/.evidence/gprmax-tests.md",
+      "skills/.evidence/gprmax-troubleshooting.md",
+      "skills/.evidence/gprmax-tools.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/.evidence/memory.md",
+        "skills/gprmax-advanced-topics/SKILL.md",
+        "skills/gprmax-advanced-topics/references/doc_map.md",
+        "skills/gprmax-advanced-topics/references/source_map.md"
+      ],
+      "changed": [
+        "skills/.evidence/memory.md",
+        "skills/gprmax-advanced-topics/SKILL.md",
+        "skills/gprmax-advanced-topics/references/doc_map.md",
+        "skills/gprmax-advanced-topics/references/source_map.md",
+        "skills/gprmax-build-and-install/SKILL.md",
+        "skills/gprmax-build-and-install/references/doc_map.md",
+        "skills/gprmax-build-and-install/references/source_map.md",
+        "skills/gprmax-comparisons-analytical/SKILL.md",
+        "skills/gprmax-comparisons-analytical/references/doc_map.md",
+        "skills/gprmax-comparisons-analytical/references/source_map.md",
+        "skills/gprmax-general/SKILL.md",
+        "skills/gprmax-general/references/doc_map.md",
+        "skills/gprmax-general/references/source_map.md",
+        "skills/gprmax-getting-started/SKILL.md",
+        "skills/gprmax-getting-started/references/doc_map.md",
+        "skills/gprmax-getting-started/references/source_map.md",
+        "skills/gprmax-include-readme/SKILL.md",
+        "skills/gprmax-include-readme/references/doc_map.md",
+        "skills/gprmax-include-readme/references/source_map.md",
+        "skills/gprmax-index/SKILL.md",
+        "skills/gprmax-inputs-and-modeling/SKILL.md",
+        "skills/gprmax-inputs-and-modeling/references/doc_map.md",
+        "skills/gprmax-inputs-and-modeling/references/source_map.md",
+        "skills/gprmax-references/SKILL.md",
+        "skills/gprmax-references/references/doc_map.md",
+        "skills/gprmax-references/references/source_map.md",
+        "skills/gprmax-tests/SKILL.md",
+        "skills/gprmax-tests/references/doc_map.md",
+        "skills/gprmax-tests/references/source_map.md",
+        "skills/gprmax-tools/SKILL.md",
+        "skills/gprmax-tools/references/doc_map.md",
+        "skills/gprmax-tools/references/source_map.md",
+        "skills/gprmax-troubleshooting/SKILL.md",
+        "skills/gprmax-troubleshooting/references/doc_map.md",
+        "skills/gprmax-troubleshooting/references/source_map.md"
+      ],
+      "deleted": [
+        "skills/gprmax-comparisons-analytical/SKILL.md",
+        "skills/gprmax-comparisons-analytical/references/doc_map.md",
+        "skills/gprmax-comparisons-analytical/references/source_map.md",
+        "skills/gprmax-general/SKILL.md",
+        "skills/gprmax-general/references/doc_map.md",
+        "skills/gprmax-general/references/source_map.md",
+        "skills/gprmax-include-readme/SKILL.md",
+        "skills/gprmax-include-readme/references/doc_map.md",
+        "skills/gprmax-include-readme/references/source_map.md",
+        "skills/gprmax-references/SKILL.md",
+        "skills/gprmax-references/references/doc_map.md",
+        "skills/gprmax-references/references/source_map.md"
+      ],
+      "modified": [
+        "skills/gprmax-build-and-install/SKILL.md",
+        "skills/gprmax-build-and-install/references/doc_map.md",
+        "skills/gprmax-build-and-install/references/source_map.md",
+        "skills/gprmax-getting-started/SKILL.md",
+        "skills/gprmax-getting-started/references/doc_map.md",
+        "skills/gprmax-getting-started/references/source_map.md",
+        "skills/gprmax-index/SKILL.md",
+        "skills/gprmax-inputs-and-modeling/SKILL.md",
+        "skills/gprmax-inputs-and-modeling/references/doc_map.md",
+        "skills/gprmax-inputs-and-modeling/references/source_map.md",
+        "skills/gprmax-tests/SKILL.md",
+        "skills/gprmax-tests/references/doc_map.md",
+        "skills/gprmax-tests/references/source_map.md",
+        "skills/gprmax-tools/SKILL.md",
+        "skills/gprmax-tools/references/doc_map.md",
+        "skills/gprmax-tools/references/source_map.md",
+        "skills/gprmax-troubleshooting/SKILL.md",
+        "skills/gprmax-troubleshooting/references/doc_map.md",
+        "skills/gprmax-troubleshooting/references/source_map.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/gprmax-advanced-topics/SKILL.md",
+        "skills/gprmax-advanced-topics/references/source_map.md",
+        "skills/gprmax-analysis-and-output/SKILL.md",
+        "skills/gprmax-analysis-and-output/references/doc_map.md",
+        "skills/gprmax-analysis-and-output/references/source_map.md",
+        "skills/gprmax-build-and-install/SKILL.md",
+        "skills/gprmax-build-and-install/references/source_map.md",
+        "skills/gprmax-getting-started/SKILL.md",
+        "skills/gprmax-getting-started/references/source_map.md",
+        "skills/gprmax-index/SKILL.md",
+        "skills/gprmax-inputs-and-modeling/SKILL.md",
+        "skills/gprmax-inputs-and-modeling/references/source_map.md",
+        "skills/gprmax-parallel-hpc/SKILL.md",
+        "skills/gprmax-parallel-hpc/references/doc_map.md",
+        "skills/gprmax-parallel-hpc/references/source_map.md",
+        "skills/gprmax-tests/SKILL.md",
+        "skills/gprmax-tests/references/source_map.md",
+        "skills/gprmax-tools/SKILL.md",
+        "skills/gprmax-tools/references/source_map.md",
+        "skills/gprmax-troubleshooting/SKILL.md",
+        "skills/gprmax-troubleshooting/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/.evidence/memory.md",
+        "skills/gprmax-advanced-topics/SKILL.md",
+        "skills/gprmax-advanced-topics/references/source_map.md",
+        "skills/gprmax-analysis-and-output/SKILL.md",
+        "skills/gprmax-analysis-and-output/references/doc_map.md",
+        "skills/gprmax-analysis-and-output/references/source_map.md",
+        "skills/gprmax-build-and-install/SKILL.md",
+        "skills/gprmax-build-and-install/references/source_map.md",
+        "skills/gprmax-getting-started/SKILL.md",
+        "skills/gprmax-getting-started/references/source_map.md",
+        "skills/gprmax-index/SKILL.md",
+        "skills/gprmax-inputs-and-modeling/SKILL.md",
+        "skills/gprmax-inputs-and-modeling/references/source_map.md",
+        "skills/gprmax-parallel-hpc/SKILL.md",
+        "skills/gprmax-parallel-hpc/references/doc_map.md",
+        "skills/gprmax-parallel-hpc/references/source_map.md",
+        "skills/gprmax-tests/SKILL.md",
+        "skills/gprmax-tests/references/source_map.md",
+        "skills/gprmax-tools/SKILL.md",
+        "skills/gprmax-tools/references/source_map.md",
+        "skills/gprmax-troubleshooting/SKILL.md",
+        "skills/gprmax-troubleshooting/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs/source"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Core implementation lives in `gprMax/`; include it explicitly because default source autodiscovery does not pick this name.",
+      "`user_models/` and `tools/Jupyter_notebooks/` provide runnable tutorial/example assets referenced by the docs.",
+      "Patched `sci-skills-generator/scripts/generate_skills_folder.py` f-string newline joins so dry-run generation executes without syntax errors."
+    ],
+    "package_name": "gprmax",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "gprMax",
+      "tools",
+      "user_libs"
+    ],
+    "test_dirs": [
+      "tests"
+    ],
+    "tutorial_dirs": [
+      "user_models",
+      "tools/Jupyter_notebooks"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gprmax-gprmax",
+  "run_id": "compile_20260301T081610797314Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "gprmax-analysis-and-output",
+      "gprmax-build-and-install",
+      "gprmax-comparisons-analytical",
+      "gprmax-general",
+      "gprmax-getting-started",
+      "gprmax-include-readme",
+      "gprmax-index",
+      "gprmax-inputs-and-modeling",
+      "gprmax-parallel-hpc",
+      "gprmax-references",
+      "gprmax-tests",
+      "gprmax-tools",
+      "gprmax-troubleshooting"
+    ],
+    "core_skill_ids": [
+      "gprmax-inputs-and-modeling",
+      "gprmax-getting-started",
+      "gprmax-build-and-install",
+      "gprmax-tests",
+      "gprmax-troubleshooting",
+      "gprmax-tools"
+    ],
+    "deferred_gaps": [
+      "After pass 2 generation, merge low-signal one-doc tail skills into a single `gprmax-advanced-topics` skill if they appear.",
+      "Confirm whether `user_libs/` should remain one skill or split into antennas/materials/optimization subskills based on generated coverage density.",
+      "Audit for missing explicit troubleshooting playbook content beyond FAQ routing in pass 3."
+    ],
+    "goal": "Generate and refine a docs-first gprmax skills set with high-signal core workflows in passes 2/3.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "routing across install/run/modeling/HPC/output/tests topics",
+          "docs-first escalation rules before source inspection"
+        ],
+        "reason": "Central router is required to keep responses docs-first and direct users to the right domain skill quickly.",
+        "skill_id": "gprmax-index",
+        "source_hints": [
+          "docs/source/index.rst",
+          "README.rst"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "environment setup and dependencies",
+          "first simulation run from a known example",
+          "core CLI flags for basic execution"
+        ],
+        "reason": "First-run setup and command invocation are the most common entry-point requests.",
+        "skill_id": "gprmax-getting-started",
+        "source_hints": [
+          "README.rst",
+          "docs/source/include_readme.rst",
+          "user_models/cylinder_Ascan_2D.in"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "build/install commands and clean rebuild workflow",
+          "compiler/OpenMP prerequisites across Linux/macOS/Windows"
+        ],
+        "reason": "Compilation and platform-specific setup failures are high-friction and high-impact.",
+        "skill_id": "gprmax-build-and-install",
+        "source_hints": [
+          "README.rst",
+          "setup.py",
+          "docs/source/coding.rst"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "input command structure and material/geometry definitions",
+          "resolution/CFL/time-window validation checklist",
+          "minimal reproducible A-scan and B-scan patterns"
+        ],
+        "reason": "Input-file modeling is the core scientific workflow and drives most correctness questions.",
+        "skill_id": "gprmax-inputs-and-modeling",
+        "source_hints": [
+          "docs/source/input.rst",
+          "docs/source/examples_simple_2D.rst",
+          "gprMax/input_cmds_geometry.py",
+          "gprMax/input_cmds_singleuse.py"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "OpenMP and MPI task-farm usage",
+          "GPU execution prerequisites and flags",
+          "batch/job-array launcher patterns"
+        ],
+        "reason": "MPI/OpenMP/GPU usage materially affects runtime and job execution reliability.",
+        "skill_id": "gprmax-parallel-hpc",
+        "source_hints": [
+          "docs/source/openmp_mpi.rst",
+          "docs/source/gpu.rst",
+          "tools/HPC_scripts"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "output files and merge workflows",
+          "A-scan/B-scan plotting workflows",
+          "notebook vs CLI analysis paths"
+        ],
+        "reason": "Post-processing and result interpretation are required after every successful run.",
+        "skill_id": "gprmax-analysis-and-output",
+        "source_hints": [
+          "docs/source/output.rst",
+          "docs/source/plotting.rst",
+          "tools/plot_Ascan.py",
+          "tools/outputfiles_merge.py",
+          "tools/Jupyter_notebooks"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "test entry points and model categories",
+          "how to use baseline/reference outputs for checks",
+          "where experimental and benchmarking fixtures live"
+        ],
+        "reason": "Regression and model-comparison tests are the primary behavior validation references.",
+        "skill_id": "gprmax-tests",
+        "source_hints": [
+          "tests/test_models.py",
+          "tests/test_experimental.py",
+          "tests/models_basic",
+          "tests/benchmarking"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "gprmax-parallel-hpc",
+      "gprmax-tests",
+      "gprmax-inputs-and-modeling",
+      "gprmax-troubleshooting",
+      "gprmax-getting-started",
+      "gprmax-build-and-install"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gprmax-gprmax/skills/gprmax-parallel-hpc/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gprmax-gprmax/skills/gprmax-tests/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gprmax-gprmax/skills/gprmax-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gprmax-gprmax/skills/gprmax-troubleshooting/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gprmax-gprmax/skills/gprmax-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/gprmax-gprmax/skills/gprmax-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "gprmax-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "gprmax-index",
+      "gprmax-getting-started",
+      "gprmax-build-and-install",
+      "gprmax-inputs-and-modeling",
+      "gprmax-parallel-hpc",
+      "gprmax-analysis-and-output",
+      "gprmax-tests"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 10,
+    "source_inventory": {},
+    "source_links_total": 61,
+    "topic_skills": 9,
+    "warnings": []
+  }
+}
